@@ -11,11 +11,8 @@ block_list = [
     "mobile.twitter.com",
     "deviantart.com",
     "www.deviantart.com",
-    "kemono.su",
-    "www.kemono.su",
     "newgrounds.com",
-    "www.newgrounds.com",
-    "rule34.xxx"
+    "www.newgrounds.com"
 ]
 
 
@@ -32,3 +29,4 @@ def block_websites():
 
 # Run block function 
 block_websites()
+
