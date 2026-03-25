@@ -12,7 +12,7 @@ def show_date():
 #This function uses the city name to fetch the data from openweathermap
 #It takes that data for that respective city the user enters and stores it in data and return it 
 def get_weather(city_name):
-    API_key = '8bf5cd2dd4549f72116e3aaf969e56cb'
+    API_key = ''
     base_url = "https://api.openweathermap.org/data/2.5/weather?"
     complete_url  = f"{base_url}q={city_name}&appid={API_key}&units=metric"
     response = requests.get(complete_url)
